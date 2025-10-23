@@ -5,13 +5,8 @@ Version: 0.1.0
 Authors@R: c(
     person(
       "Eslam", "Maher",
-      email = "e.maher@imperial.ac.uk",
+      email = "maher.sci@gmail.com",
       role = c("aut", "cre")
-    ),
-    person(
-      "Aya", "Khalil",
-      email = "a.khalil@imperial.ac.uk",
-      role = c("aut")
     )
   )
 Description: Recodes and scores the eight scales of the RAND SF-36 Health Survey from raw item responses in a data frame. Items are recoded to a 0-100 scale and averaged to create the eight scales: Physical Functioning, Role Limitations due to Physical Health, Role Limitations due to Emotional Problems, Energy/Fatigue, Emotional Well-Being, Social Functioning, Pain, and General Health.
