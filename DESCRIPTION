@@ -1,0 +1,21 @@
+Package: rand36sf
+Type: Package
+Title: Recode and score the RAND 36-SF Health Survey
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Eslam", "Maher",
+      email = "e.maher@imperial.ac.uk"
+    ),
+    person(
+      "Aya", "Khalil",
+      email = "a.khalil@imperial.ac.uk"
+    )
+  )
+Description: This function recodes and scores the eight scales of the RAND SF-36
+  health survey from raw item responses in a dataframe. Items are recoded to
+  a 0-100 scale and then averaged to create the 8 scales.
+Imports: dplyr, purrr
+License: MIT
+Encoding: UTF-8
+LazyData: true
