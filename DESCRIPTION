@@ -1,22 +1,22 @@
 Package: rand36sf
 Type: Package
-Title: Recode and score the RAND 36-SF Health Survey
+Title: Recode and Score the RAND 36-SF Health Survey
 Version: 0.1.0
 Authors@R: c(
     person(
       "Eslam", "Maher",
-      email = "e.maher@imperial.ac.uk"
+      email = "e.maher@imperial.ac.uk",
+      role = c("aut", "cre")
     ),
     person(
       "Aya", "Khalil",
-      email = "a.khalil@imperial.ac.uk"
+      email = "a.khalil@imperial.ac.uk",
+      role = c("aut")
     )
   )
-Description: This function recodes and scores the eight scales of the RAND SF-36
-  health survey from raw item responses in a dataframe. Items are recoded to
-  a 0-100 scale and then averaged to create the 8 scales.
+Description: Recodes and scores the eight scales of the RAND SF-36 Health Survey from raw item responses in a data frame. Items are recoded to a 0-100 scale and averaged to create the eight scales: Physical Functioning, Role Limitations due to Physical Health, Role Limitations due to Emotional Problems, Energy/Fatigue, Emotional Well-Being, Social Functioning, Pain, and General Health.
 Imports: dplyr, purrr
-License: MIT
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.3.2
+Roxygen: list(markdown = TRUE)
