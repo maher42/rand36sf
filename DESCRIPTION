@@ -9,6 +9,8 @@ Authors@R: c(
       role = c("aut", "cre")
     )
   )
+Author: Eslam Maher [aut, cre]
+Maintainer: Eslam Maher <maher.sci@gmail.com>
 Description: Recodes and scores the eight scales of the RAND SF-36 Health Survey from raw item responses in a data frame. Items are recoded to a 0-100 scale and averaged to create the eight scales: Physical Functioning, Role Limitations due to Physical Health, Role Limitations due to Emotional Problems, Energy/Fatigue, Emotional Well-Being, Social Functioning, Pain, and General Health.
 Imports: dplyr, purrr
 License: MIT + file LICENSE
