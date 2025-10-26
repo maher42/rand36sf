@@ -14,3 +14,5 @@ Imports: dplyr mutate across recode
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
+URL: https://github.com/maher42/rand36sf
+BugReports: https://github.com/maher42/rand36sf/issues
