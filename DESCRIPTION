@@ -1,18 +1,23 @@
 Package: rand36sf
 Type: Package
-Title: Recode and Score the RAND 36-SF Health Survey
+Title: Recode and Score the RAND 36-Item Short Form Health Survey
 Version: 0.1.0
-Authors@R: person(
-      "Eslam", "Maher",
-      email = "maher.sci@gmail.com",
-      role = c("aut", "cre")
-    )
-Author: Eslam Maher [aut, cre]
-Maintainer: Eslam Maher <maher.sci@gmail.com>
-Description: Recodes and scores the eight scales of the RAND SF-36 Health Survey from raw item responses in a data frame. Items are recoded to a 0-100 scale and averaged to create the eight scales: Physical Functioning, Role Limitations due to Physical Health, Role Limitations due to Emotional Problems, Energy/Fatigue, Emotional Well-Being, Social Functioning, Pain, and General Health.
-Imports: dplyr mutate across recode
+Authors@R: 
+    person("Eslam", "Maher", 
+           email = "maher.sci@gmail.com",
+           role = c("aut", "cre"))
+Description: 
+    Recodes and scores the eight scales of the RAND 36-Item Short Form Health Survey (SF-36) 
+    from raw item responses in a data frame. Items are recoded to a 0-100 scale and averaged 
+    to create the eight health domains: Physical Functioning, Role Limitations due to 
+    Physical Health, Role Limitations due to Emotional Problems, Energy/Fatigue, 
+    Emotional Well-Being, Social Functioning, Pain, and General Health. This implementation 
+    follows the official RAND scoring manual.
 License: MIT + file LICENSE
-Encoding: UTF-8
-Roxygen: list(markdown = TRUE)
 URL: https://github.com/maher42/rand36sf
 BugReports: https://github.com/maher42/rand36sf/issues
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Imports: 
+    dplyr
+RoxygenNote: 7.3.2
