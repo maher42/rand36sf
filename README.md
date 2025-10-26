@@ -1,0 +1,33 @@
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+# rand36sf
+
+**Recode and scale the RAND SF-36 Questionnaire**
+
+The `rand36sf` package recodes and scores the eight scales of the RAND
+SF-36 Health Survey from raw item responses in a data frame. Items are
+recoded to a 0-100 scale and averaged to create the eight scales:
+Physical Functioning, Role Limitations due to Physical Health, Role
+Limitations due to Emotional Problems, Energy/Fatigue, Emotional
+Well-Being, Social Functioning, Pain, and General Health. This is done
+as per the [scoring
+manual](https://www.rand.org/health/surveys/mos/36-item-short-form/scoring.html).
+
+## Installation
+
+You can install the development version of rand36sf from
+[GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("maher42/rand36sf")
+```
+
+## Example
+
+``` r
+library(rand36sf)
+
+# Load example data
+```
