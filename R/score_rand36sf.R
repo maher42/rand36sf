@@ -31,7 +31,7 @@
 #' @export
 #' @importFrom dplyr mutate across recode
 NULL
-score_rand36sf <- function(data, item1 = 3) {
+score_randsf_36 <- function(data, item1 = 3) {
   offset <- item1 - 1
 
   recoded_data <- data |>
