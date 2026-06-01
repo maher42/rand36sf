@@ -19,8 +19,30 @@ devtools::install_github("maher42/rand36sf")
 
 ## Example
 
-``` r
+`score_rand36sf()` expects each row to be one completed questionnaire: any
+leading identifier columns (here, an `id` and a `timepoint`), followed by the
+36 SF-36 items in standard order. The bundled data has six respondents, each
+measured at two timepoints:
+
+```{r format}
 library(rand36sf)
 
-# Load example data
+data(sf36_example)
+head(sf36_example)
 ```
+
+The first two columns are identifiers and the items begin at column 3, which is
+the default for the function's `start_col` argument.
+
+### Scoring the survey
+
+Pass the data to `score_rand36sf()`. It returns your original data frame with
+eight new columns — one per scale — each scored on a 0 to 100 scale, where higher
+is better:
+
+```{r score}
+scored_df <- score_rand36sf(sf36_example)
+
+head(scored_df)
+```
+
