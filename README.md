@@ -1,6 +1,4 @@
 
-<!-- README.md is generated from README.Rmd. Please edit that file -->
-
 # rand36sf
 
 **Recode and scale the RAND SF-36 Questionnaire**
