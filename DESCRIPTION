@@ -18,12 +18,9 @@ URL: https://github.com/maher42/rand36sf
 BugReports: https://github.com/maher42/rand36sf/issues
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-Depends: 
-    R (>= 4.1)
 Imports: 
     dplyr
 LazyData: true
 RoxygenNote: 7.3.2
 Depends: 
     R (>= 4.1)
-LazyData: true
