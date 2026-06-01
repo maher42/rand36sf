@@ -4,8 +4,7 @@
 #' health survey from raw item responses in a dataframe. Items are recoded to 
 #' a 0-100 scale and then averaged to create the 8 scales.
 #' 
-#' The function expects columns for 36 items, starting at column `start_col`. 
-#' Missing values are...
+#' The function expects columns for 36 items, starting at column `start_col`.
 #' 
 #' @param data A dataframe containing the raw SF-36 item responses as 
 #'   integers. Columns must be in the standard SF-36 order.
