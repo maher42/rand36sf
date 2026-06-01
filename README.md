@@ -129,3 +129,5 @@ head(scored_df)
     ## 4                   44               50.0 50.0             60
     ## 5                   48               75.0 25.0             50
     ## 6                   44               50.0 50.0             45
+
+Now, `scored_df` is ready for analysis.
